@@ -1,0 +1,19 @@
+{
+  "name": "portfolio2",
+  "version": "2.0.0",
+  "description": "second idea for a portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocolatechimpcookie/portfolio2.git"
+  },
+  "author": "Alicina Memar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chocolatechimpcookie/portfolio2/issues"
+  },
+  "homepage": "https://github.com/chocolatechimpcookie/portfolio2#readme"
+}
