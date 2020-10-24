@@ -5,23 +5,25 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="./libraries/angular180.min.js"></script>
+	<!-- <script src="./libraries/angular180.min.js"></script> -->
 	<!-- <script src="./main.js"></script> -->
 	<link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body ng-app="portfolio2App">
 	<div class="container">
 		<!-- <nav class="row navbar navbar-inverse navbar-fixed-top fixed-top top"> -->
 		<nav class="row navbar">
-			<div class="col-sm-4">Alicina's Portfolio</div>
+			<div class="col-sm-4"><a href="#welcome-section">Alicina's Portfolio</a></div>
 			<div class="col-sm-8">
-				<a>Code Camp Projects | <a><a>School Projects| </a>
+				<a href="#code_camp_sideproj">Other side Projects | <a><a href="#school">School Projects| </a>
 				<a></a>
 			</div>
 		</nav>
 
+		<!-- <div ui-view id="ui-view" class="row" id="projects"></div> -->
 		<div class="row" id="projects">
+
 			<div id="welcome-section">
 				<h2>Hello, I'm Alicina Memar</h2>
 				<p>		What is Lorem Ipsum?
@@ -35,7 +37,15 @@
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 				</p>
 
+				<button>Github</button>
+				<button>Resume</button>
+
+
+
+
 			</div>
+
+
 
 <!--  -->
 			<div id="school">
